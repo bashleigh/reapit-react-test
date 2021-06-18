@@ -1,0 +1,7 @@
+{
+  "appEnv": "local",
+  "connectClientId": "",
+  "connectOAuthUrl": "https://connect.reapit.cloud",
+  "platformApiUrl": "https://platform.reapit.cloud",
+  "connectUserPoolId": ""
+}
