@@ -41,5 +41,8 @@ jobs:
           yarn reapit pipeline deploy-zip $PIPELINE_ID -y
         env:
           PIPELINE_ID: ${{secrets.PIPELINE_ID}}
-
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
     
