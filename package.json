@@ -1,6 +1,6 @@
 {
   "name": "test-test",
-  "version": "3.2.5",
+  "version": "3.2.6",
   "private": true,
   "dependencies": {
     "@reapit/connect-session": "^2.3.0",
