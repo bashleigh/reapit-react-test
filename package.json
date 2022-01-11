@@ -57,6 +57,7 @@
     ]
   },
   "devDependencies": {
+    "@reapit/cli": "^0.1.4",
     "serverless-deployment-bucket": "^1.5.1",
     "serverless-s3-deploy": "^0.10.0",
     "serverless-s3-remover": "^0.6.0",
