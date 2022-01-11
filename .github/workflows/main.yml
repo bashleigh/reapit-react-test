@@ -37,6 +37,7 @@ jobs:
 
       - name: Deploy
         run: |
+          echo $PIPELINE_ID &&
           yarn reapit pipeline deploy-zip $PIPELINE_ID
         env:
           PIPELINE_ID: ${{secrets.PIPELINE_ID}}
