@@ -37,6 +37,9 @@ jobs:
 
       - name: Deploy
         run: |
-          yarn reapit pipeline deploy-zip ${PIPELINE_ID}
+          yarn reapit pipeline deploy-zip ${{PIPELINE_ID}}
+        env:
+          # REAPIT_API_KEY: ${{secrets.REAPIT_API_KEY}}
+          PIPELINE_ID: ${{secrets.PIPELINE_ID}}
 
     
