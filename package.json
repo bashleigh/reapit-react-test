@@ -1,6 +1,6 @@
 {
   "name": "test-test",
-  "version": "3.2.6",
+  "version": "3.2.8",
   "private": true,
   "dependencies": {
     "@reapit/connect-session": "^2.3.0",
@@ -57,7 +57,6 @@
     ]
   },
   "devDependencies": {
-    "@reapit/cli": "^0.3.0",
     "serverless-deployment-bucket": "^1.5.1",
     "serverless-s3-deploy": "^0.10.0",
     "serverless-s3-remover": "^0.6.0",
