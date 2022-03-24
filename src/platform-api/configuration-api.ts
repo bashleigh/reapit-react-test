@@ -22,7 +22,7 @@ export const configurationAppointmentsApiService = async (
     }
 
     throw new Error('No response returned by API')
-  } catch (err) {
+  } catch (err: any) {
     console.error('Error fetching Configuration Appointment Types', err.message)
   }
 }
