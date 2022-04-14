@@ -15,9 +15,7 @@ window.reapit = {
   },
 }
 
-console.log('HELLO!!!!!')
-
-export const renderApp = (Component: React.ComponentType) => {
+export const renderApp = (Component: any) => {
   const rootElement = document.querySelector('#root') as Element
   const isDesktop = getMarketplaceGlobalsByKey()
   const html = document.querySelector('html')
